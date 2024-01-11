@@ -58,7 +58,7 @@ class TextEditor:
     self.txtarea.pack(fill=BOTH,expand=1)
 
     self.shortcuts()
-
+#git demo
   def settitle(self):
     if self.filename:
       self.title.set(self.filename)
